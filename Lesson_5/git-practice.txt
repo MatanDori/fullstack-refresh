@@ -3,3 +3,5 @@ Learning how Git tracks changes
 Working on a feature branch
 Change from the master and the feature
 Change made from GitHub
+
+git diff
