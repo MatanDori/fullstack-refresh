@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin: 5px;
+}
+
+.card{
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.actions{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+}
