@@ -87,4 +87,9 @@ function getActiveAdultLabels(employees) {
     return employees.filter((employee) => employee.age >= 18 && employee.isActive)
         .map((employee) =>`${employee.name} - ${employee.role}`);
 }
-    console.log(giveActiveAdultsLabels);
+    //console.log(giveActiveAdultsLabels);
+    numbers = [10,20,30]
+    const a = numbers.forEach((number) => {
+    return number * 2;
+});
+console.log(a);
